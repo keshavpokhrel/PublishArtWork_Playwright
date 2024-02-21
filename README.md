@@ -28,29 +28,29 @@ npx playwright test -g 'Publish Art' --project='mobile chrome'
 
 - To run all test cases on all browsers in sequential manner in a single worker:
 
-  > In **playwright.config.ts** file we need to set **`workers: 1`**
+> In **playwright.config.ts** file we need to set **`workers: 1`**
 
- ![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/a28601c7-0e20-4335-9aa4-a6cc425296d4)
+   ![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/a28601c7-0e20-4335-9aa4-a6cc425296d4)
 
 _Then run below command:_
 
 ```
 npx playwright test -g 'Publish Art'
 ```
-- To run all test cases on multiple browsers on multiple workers in sequance: 
+- To run all test cases on multiple browsers on multiple workers in sequance:
 > In **playwright.config.ts** file we need to comment **`//workers: 1`** and **`fullyParallel:false`**
 
-![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/3cb1cb1e-9e4e-448c-823b-6a281140965e)
+  ![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/3cb1cb1e-9e4e-448c-823b-6a281140965e)
  
-_Then run below command:_
+ _Then run below command:_
 
 ```
 npx playwright test -g 'Publish Art'
 ```
-- To run all test cases on all browsers in parallel/random manner with multiple workers: 
+- To run all test cases on all browsers in parallel/random manner with multiple workers:
 > In **playwright.config.ts** file we need to make **`fullyParallel:true`** and comment **`//workers:1`**
    
-![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/251f077c-26f7-476c-b714-1eb8f2d976da)
+  ![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/251f077c-26f7-476c-b714-1eb8f2d976da)
 
 _Then run below command:_
 
