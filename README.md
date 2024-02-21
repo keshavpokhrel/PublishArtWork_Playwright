@@ -57,4 +57,15 @@ _Then run below command:_
 ```
 npx playwright test -g 'Publish Art'
 ```
+- To run all test cases on all browsers in headless mode:
+  > In **playwright.config.ts** file we need to make **`headless: true`**
+
+![image](https://github.com/keshavpokhrel/PublishArtwork_Playwright/assets/6346814/bac57bd6-741e-4ad9-a48a-db7da91a43f0)
+
+
+_Then run below command:_
+
+```
+npx playwright test -g 'Publish Art'
+```
 
