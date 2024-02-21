@@ -1,0 +1,18 @@
+{
+    "username": "jamiwa8396@tospage.com",
+    "password": "nhk9dad2EQW!xae_bpm",
+    "artworkName": "QA Artwork_",
+    "editionToCheck": "Multiple Edition",
+    "howManyEdition": "1",
+    "artworkDescription": "descrition of artwork.",
+    "currentPrice": "10",
+    "primarySalePrice": "5",
+    "primarySaleBuyerText": "qa@test.com",
+    "collaborator": "qa",
+    "ownedByText": "owner",
+    "artistRoyalityPercentage": "90",
+    "marketplaceURL": "https://www.google.com/",
+    "uploadFilePath": "test-data/attachments/playwright.png",
+    "reviewTitle": "This is artwrok review title.",
+    "reviewDetail": "This is artwrok review detail."
+}
