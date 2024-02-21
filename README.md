@@ -68,7 +68,7 @@ _Then run below command:_
 ```
 npx playwright test -g 'Publish Art'
 ```
-_If we want to run any specific browser on headless we can pass `--project={projectname}` on above command, example like :_
+_If we want to run any specific browser on headless mode with above config we can pass `--project={projectname}` on above command, example like :_
 ```
 npx playwright test -g 'Publish Art' --project=chromium
 ```
